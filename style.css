@@ -3,3 +3,9 @@ body{
 background-color: #505057;
 
 }
+
+.cabecalho{
+
+    display: flex;
+}
+
