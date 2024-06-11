@@ -1,6 +1,6 @@
 body{
 
-    background-color: #85809b;
+    background-color: #7e7b8b;
 
 }
 
@@ -27,5 +27,5 @@ padding: 20px;
 
 .sobre{
 display: flex;
-
+justify-content: center;
 }
