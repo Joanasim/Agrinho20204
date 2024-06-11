@@ -1,12 +1,12 @@
 body{
 
-background-color: #505057;
+    background-color: rgb(183, 176, 176);
 
 }
 
 .cabecalho{
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -22,6 +22,10 @@ padding: 20px;
 
     display: inline;
     text-transform: uppercase;
-    margin: 30px
+    margin: 30px;
+}
+
+.sobre{
+display: flex;
 
 }
