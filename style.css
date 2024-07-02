@@ -1,11 +1,11 @@
 body{
 
-    background-color: #7e7b8b;
+    background-color: rgb(183, 176, 176);/*coloca uma cor de fundo*/
 
 }
 
 .cabecalho{
-    display: flex;
+    display: flex;/*muda a disposição do elementos para horizontal*/
     align-items: center;
     justify-content: space-between;
 }
@@ -35,4 +35,21 @@ align-items: center;
 .sobre_texto{
 
     padding: 40px;
+}
+
+.elementos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.elementos__div{
+    text-align: center;
+}
+.elementos__imagem{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
 }
